@@ -161,8 +161,8 @@ Ce projet est sous licence [MIT](LICENSE).
 
 Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter :  
 **Nom** : Martial De-Paul  
-**E-mail** : [votre-email@example.com](mailto:depaulmartial4@gmail.com)  
-**GitHub** : [https://github.com/username](https://github.com/Martialdepaul)
+**E-mail** : [depaulmartial4@gmail.com]  
+**GitHub** : [https://github.com/Martialdepaul]
 ```
 
 Cette version utilise davantage d'emojis pour rendre le `README.md` plus dynamique et visuellement attrayant ! 😊
