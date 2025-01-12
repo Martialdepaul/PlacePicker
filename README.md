@@ -120,7 +120,7 @@ Ce projet a été une opportunité pour approfondir les **hooks React** et compr
 ## 🎨 Aperçu 🖼️
 
 Voici quelques captures d'écran de l'application :  
-*(Ajoutez ici des images ou GIFs montrant votre application en action.)*
+![Aperçu de Elegant-Context](./src/assets/img.png)
 
 ---
 
